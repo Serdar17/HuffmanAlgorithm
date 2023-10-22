@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archiver.Api", "Archiver.Api\Archiver.Api.csproj", "{BB87BCC1-938B-43AB-BBBF-F1A945CEFFAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archiver.Web", "Archiver.Web\Archiver.Web.csproj", "{ADFD0AC8-44B0-4D11-8FF3-9B2CD9B95193}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB87BCC1-938B-43AB-BBBF-F1A945CEFFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB87BCC1-938B-43AB-BBBF-F1A945CEFFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB87BCC1-938B-43AB-BBBF-F1A945CEFFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB87BCC1-938B-43AB-BBBF-F1A945CEFFAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADFD0AC8-44B0-4D11-8FF3-9B2CD9B95193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFD0AC8-44B0-4D11-8FF3-9B2CD9B95193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFD0AC8-44B0-4D11-8FF3-9B2CD9B95193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFD0AC8-44B0-4D11-8FF3-9B2CD9B95193}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

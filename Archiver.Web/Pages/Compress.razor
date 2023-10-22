@@ -1,0 +1,22 @@
+﻿@page "/"
+@using System.IO.Compression
+
+<h3>Compress file</h3>
+
+<FileUpload Mode="CompressionMode.Compress"/>
+
+@* <h4>Выберите или перетащите файл, для просмотра содержимого</h4> *@
+@* *@
+@* <div @ref="FileDropContainer" class="file-drop-zone @HoverClass"  *@
+@*      @ondragenter="OnDragEnter"  *@
+@*      @ondragleave="OnDragLeave"  *@
+@*      @ondragover="OnDragEnter"> *@
+@*     <InputFile OnChange="@WriteFile" @ref="InputFile"/> *@
+@* </div> *@
+@* *@
+@* <div class="text-file">@TextFromFile</div> *@
+@* *@
+@* @if (IsLoading) *@
+@* { *@
+@*     <DisplaySpinner/> *@
+@* } *@
